@@ -2,6 +2,8 @@
 function sum($a,$d){
 return $a+$d;
 }
+function Newsum(){
+}
 function mysort($arr){
     $count = count($arr);
     $quantityIterations = $count-1;
