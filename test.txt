@@ -1,0 +1,14 @@
+function mysort($arr){
+    $count = count($arr);
+    $quantityIterations = $count-1;
+    for($i=0;$i<$count;$i++){
+        for($k=0;$k<$quantityIterations;$k++){
+            if($arr[$k]>$arr[$k+1]){
+list($arr[$k],$arr[$k+1])=array($arr[$k+1],$arr[$k]);
+            }
+        }
+
+        $quantityIterations--;
+    }
+    return $arr;
+}
