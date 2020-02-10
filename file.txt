@@ -1,5 +1,6 @@
 
-function sum(){
+function sum($a,$d){
+return $a+$d;
 }
 function mysort($arr){
     $count = count($arr);
