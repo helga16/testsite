@@ -1,6 +1,8 @@
 
 function sum(){
 }
+function Newsum(){
+}
 function mysort($arr){
     $count = count($arr);
     $quantityIterations = $count-1;
