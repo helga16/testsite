@@ -20,6 +20,7 @@ list($arr[$k],$arr[$k+1])=array($arr[$k+1],$arr[$k]);
 }
 echo col();
 function col(){
+$i=3;
     return func_num_args();
-
+$a=6;
 }
