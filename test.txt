@@ -12,3 +12,7 @@ list($arr[$k],$arr[$k+1])=array($arr[$k+1],$arr[$k]);
     }
     return $arr;
 }
+
+function col(){
+    return func_num_args();
+}
